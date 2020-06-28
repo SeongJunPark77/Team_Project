@@ -111,10 +111,9 @@ public class Player : MonoBehaviour
 
     void Run()
     {
-            movement.Set(MoveHorizontal, 0, MoveVertical);
-            movement = (transform.right * MoveHorizontal * speed * Time.deltaTime
-                + transform.forward * MoveVertical * speed * Time.deltaTime);
-            rigidbody.MovePosition(transform.position + movement);
+        movement.Set(MoveHorizontal, 0, MoveVertical);
+        movement = (transform.right * MoveHorizontal * speed * Time.deltaTime + transform.forward * MoveVertical * speed * Time.deltaTime);
+        rigidbody.MovePosition(transform.position + movement);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -130,7 +129,7 @@ public class Player : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Jumpgo"))
         {           
-            rigidbody.AddForce(Vector3.up * 11, ForceMode.Impulse);
+            rigidbody.AddForce(Vector3.up * 15, ForceMode.Impulse);
         }
     }
 }

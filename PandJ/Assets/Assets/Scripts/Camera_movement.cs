@@ -16,7 +16,7 @@ public class Camera_movement : MonoBehaviour
     private float y = 0.0f;
 
     public float yMinLimit = 20f;
-    public float yMaxLimit = 80f;
+    public float yMaxLimit = -180f;
 
     float ClampAngle(float angle, float min, float max)
     {
