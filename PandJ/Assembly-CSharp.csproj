@@ -60,11 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Assets\Camera_movement.cs" />
-    <Compile Include="Assets\Assets\Player.cs" />
-    <Compile Include="Assets\Assets\Portal.cs" />
-    <Compile Include="Assets\Assets\SpaceSkies Free\Demo\Scripts\LookCamera.cs" />
-    <Compile Include="Assets\Assets\SpaceSkies Free\Demo\Scripts\SkyboxChanger.cs" />
+    <Compile Include="Assets\Assets\Scripts\Camera_movement.cs" />
+    <Compile Include="Assets\Assets\Scripts\JumpPedal.cs" />
+    <Compile Include="Assets\Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Assets\Scripts\Portal.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/Admin/Desktop/Team_Project/PandJ/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
