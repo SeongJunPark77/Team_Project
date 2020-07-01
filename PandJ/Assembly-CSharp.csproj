@@ -60,12 +60,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Assets\Scripts\bullet_main.cs" />
+    <Compile Include="Assets\Assets\Scripts\bullet_manager.cs" />
     <Compile Include="Assets\Assets\Scripts\Camera_movement.cs" />
     <Compile Include="Assets\Assets\Scripts\JumpPedal.cs" />
     <Compile Include="Assets\Assets\Scripts\LookCamera.cs" />
+    <Compile Include="Assets\Assets\Scripts\object_hide.cs" />
     <Compile Include="Assets\Assets\Scripts\object_moving_x.cs" />
     <Compile Include="Assets\Assets\Scripts\object_moving_y.cs" />
     <Compile Include="Assets\Assets\Scripts\object_moving_z.cs" />
+    <Compile Include="Assets\Assets\Scripts\obstacle_hit.cs" />
+    <Compile Include="Assets\Assets\Scripts\obstacle_moving.cs" />
     <Compile Include="Assets\Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Assets\Scripts\Portal.cs" />
     <Compile Include="Assets\Assets\Scripts\SkyboxChanger.cs" />
