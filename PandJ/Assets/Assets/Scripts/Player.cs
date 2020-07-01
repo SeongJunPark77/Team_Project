@@ -82,8 +82,9 @@ public class Player : MonoBehaviour
 
     void Keyinput()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
+            GameObject.Find("sound_gun").GetComponent<AudioSource>().Play();
             isAttacking = true;
         }
         else
@@ -124,7 +125,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            GameObject.Find("sound_footstep").GetComponent<AudioSource>().Stop();
+          
         }
 
         if (collision.gameObject.CompareTag("Jumpgo"))

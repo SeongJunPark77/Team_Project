@@ -24,10 +24,10 @@ public class obstacle_hit : MonoBehaviour
         {      
             //tag Player랑 충돌 한번할 때 마다 알파값 0.1상승
             Color color = hit.color;
-            color.a += 0.1f;
+            color.a += 0.05f;
             hit.color = color;
             //만약 3번 부딪혀서 알파값이 0.3이 될 때
-            if(color.a == 0.3f)
+            if(color.a == 0.15f)
             { 
                 //알파값 다시 0되면서 뒤졌으니까 초기 장소로 이동
                 color.a = 0.0f;
